@@ -37,8 +37,8 @@ h1{
     padding-left: 100px;
     padding-bottom: 30px;
     background-color: #E2DEC2;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 body{
