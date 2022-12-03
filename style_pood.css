@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Existence-Light;
+    src: url(Existence-Light.otf);
+}
+
+
+
+body{
+    background-color: #E2DEC2;
+    font-family: Existence-Light;
+}
+
+head{
+    text-align: center;
+}
+
+h1{
+    color:#A9997A;
+    text-align: left;
+    padding: 30px;
+    font-size: 48px;
+    padding-bottom: 190px;
+    
+}
+
+p{
+    color:#A9997A;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+
+
+.topright{
+    color:#A9997A;
+    position: absolute;
+    top: 40px;
+    right: 87px;
+    font-size: 20px;
+    text-decoration:none;
+
+}
+
+.topright2{
+    color:#A9997A;
+    position: absolute;
+    top: 82px;
+    right: 66px;
+    font-size: 20px;
+    text-decoration:none;
+    
+
+}
+
+.topright3{
+    color:#A9997A;
+    position: absolute;
+    top: 124px;
+    right: 63.5px;
+    font-size: 20px;
+    text-decoration:none;
+    
+
+}
+
+
+
+.button {
+    font-size: 1em;
+    padding: 6px;
+    color: #A9997A;
+    border: 1px solid #A9997A;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+.button:hover {
+    background: #cbc0a8;
+  }
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #cbc0a8;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
