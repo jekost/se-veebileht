@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3041/3041130.png" type="image/x-icon">
     <title>kontakt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
 
@@ -16,9 +17,27 @@
 <div class="kõrvuti_rida">
     <div class="kõrvuti_veerg_100" >
         <h1>kontakt</h1>
-        <p>telefon: +372 53566367</p>
-        <p>e-post: nuudlipoisid@gmail.com</p>
-        <p>aadress: Narva mnt 18, 51009 Tartu</p>
+        <div class ="kõrvuti_tekst_vasak">
+            <p>siit leiate leiate meie kontaktinfo</p> 
+            <p>kui teil on küsimusi või ettepanekuid, siis kirjutage või helistage</p>
+            <p>oleme avatud tööpäeviti kaheksast viieni</p>
+            <p></p>
+        </div>
+        <div class ="kõrvuti_tekst_parem">
+            <div class="kõrvuti_rida">
+                <i class="material-icons md-60">phone</i>
+                <p class="ikooniga">+372 53566367</p>
+            </div>
+            <div class="kõrvuti_rida">
+                <i class="material-icons md-60">mail_outline</i>
+                <p class="ikooniga">nuudlipoisid@gmail.com</p>
+            </div>
+            <div class="kõrvuti_rida">
+                <i class="material-icons md-60">location_on</i>
+                <p class="ikooniga">Narva mnt 18, 51009 Tartu</p> 
+            </div> 
+        </div> 
+    
     </div> 
     <div>
         <div class="topright">
@@ -26,7 +45,7 @@
         </div>
         
         <div class="topright2">
-            <a class="button" href="seKontakt.html">kontakt</a>    
+            <a class="button" href="se.html">esileht</a>    
         </div>
         
         <div class="topright3">
@@ -36,7 +55,7 @@
 </div>
 
 <div class="container"> 
-    <form action="/action_page.php"></form> 
+    <form action="" id="vorm">
         
         <div class="kõrvuti_rida">
             <div class="kõrvuti_veerg" id="nimi_kast">
@@ -53,8 +72,10 @@
             <label for="Teema" class="label_tekst">küsimused/ettepanekud</label>
             <textarea type="text" id="küsimused" class="tekstikast" placeholder="Sisesta küsimus/ettepanek"></textarea>
         </div>
-        <input type="submit" value="saada">
+        <input type="submit" value="saada" id="nupp">  
     </form>
+    <script src="kontakt_js.js"></script>
+    
 </div>
 
 
