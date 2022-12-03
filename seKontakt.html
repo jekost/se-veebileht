@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_kontakt.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3041/3041130.png" type="image/x-icon">
+    <title>kontakt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<div class="leht">
+
+
+<div class="kõrvuti_rida">
+    <div class="kõrvuti_veerg_100" >
+        <h1>kontakt</h1>
+        <div class ="kõrvuti_tekst_vasak">
+            <p>siit leiate leiate meie kontaktinfo</p> 
+            <p>kui teil on küsimusi või ettepanekuid, siis kirjutage või helistage</p>
+            <p>oleme avatud tööpäeviti kaheksast viieni</p>
+            <p></p>
+        </div>
+        <div class ="kõrvuti_tekst_parem">
+            <div class="kõrvuti_rida">
+                <i class="material-icons md-60">phone</i>
+                <p class="ikooniga">+372 53566367</p>
+            </div>
+            <div class="kõrvuti_rida">
+                <i class="material-icons md-60">mail_outline</i>
+                <p class="ikooniga">nuudlipoisid@gmail.com</p>
+            </div>
+            <div class="kõrvuti_rida">
+                <i class="material-icons md-60">location_on</i>
+                <p class="ikooniga">Narva mnt 18, 51009 Tartu</p> 
+            </div> 
+        </div> 
+    
+    </div> 
+    <div>
+        <div class="topright">
+            <a class="button" href="sePood.html">pood</a>    
+        </div>
+        
+        <div class="topright2">
+            <a class="button" href="se.html">esileht</a>    
+        </div>
+        
+        <div class="topright3">
+            <a class="button" href="#popup1">asukoht</a>
+        </div>
+    </div>
+</div>
+
+<div class="container"> 
+    <form action="" id="vorm">
+        
+        <div class="kõrvuti_rida">
+            <div class="kõrvuti_veerg" id="nimi_kast">
+                <label for="nimi" class="label_tekst">nimi</label>
+                <input type="text" class="tekstikast" placeholder="Sisesta nimi">
+            </div>
+            <div class="kõrvuti_veerg" id="e-post_kast">
+                <label for="e-post" class="label_tekst">e-post</label>
+                <input type="text" class="tekstikast" placeholder="Sisesta e-post">
+            </div>
+        </div>
+
+        <div class="kõrvuti_veerg">
+            <label for="Teema" class="label_tekst">küsimused/ettepanekud</label>
+            <textarea type="text" id="küsimused" class="tekstikast" placeholder="Sisesta küsimus/ettepanek"></textarea>
+        </div>
+        <input type="submit" value="saada" id="nupp">  
+    </form>
+    <script src="kontakt_js.js"></script>
+    
+</div>
+
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.474663610372!2d26.722568016034337!3d58.38539608133852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb37b2e8a6ef3d%3A0xb1c21ea409a3845f!2sTartu%20%C3%9Clikooli%20Delta%20keskus!5e0!3m2!1set!2see!4v1669129333938!5m2!1set!2see" width="640" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+</body>
+</html>
