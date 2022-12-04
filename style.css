@@ -10,28 +10,9 @@ body{
     font-family: Existence-Light;
 }
 
-
-.leht {
-  padding-left: 100px;
-  padding-bottom: 30px;
-  background-color: #E2DEC2;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-  min-height: 100vh;
+head{
+    text-align: center;
 }
-
-body{
-  background-color: #ffffff;
-  font-family: Existence-Light;
-  padding:150px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin:0px;
-}
-
 
 h1{
     color:#A9997A;
@@ -104,13 +85,13 @@ p{
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
   }
 .overlay:target {
     visibility: visible;
     opacity: 1;
-    transition: opacity 500ms;
   }
   
 .popup {
@@ -132,9 +113,3 @@ p{
     text-decoration: none;
     color: #333;
   }
-
-.google_maps {
-  width:640px;
-  height:450px;
-  border:0;
-}
