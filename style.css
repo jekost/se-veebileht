@@ -85,13 +85,13 @@ p{
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
   }
 .overlay:target {
     visibility: visible;
     opacity: 1;
+    transition: opacity 500ms;
   }
   
 .popup {
@@ -113,3 +113,9 @@ p{
     text-decoration: none;
     color: #333;
   }
+
+.google_maps {
+  width:640px;
+  height:450px;
+  border:0;
+}
