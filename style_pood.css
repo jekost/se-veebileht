@@ -18,10 +18,10 @@ p{
 }
 
 .rida{
-  display: flex;
-  flex: auto;
-  width: auto;
+  display: inline-flex;
+  width: 100%;
   height: 80%;
+  overflow: auto;
 }
 
 .veerg{
