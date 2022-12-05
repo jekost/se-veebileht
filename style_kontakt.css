@@ -19,6 +19,8 @@ h1{
     line-height: 0.3;
     padding-left: 10px;
     padding-bottom: 10px;
+    white-space: nowrap;
+
 }
 
 
