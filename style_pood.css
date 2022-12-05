@@ -83,12 +83,3 @@ p{
   top: 124px;
   right: 213.5px;
 }
-
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background: #cbc0a8;
-  width: 50%;
-  position: relative;
-  transition: none;
-}
